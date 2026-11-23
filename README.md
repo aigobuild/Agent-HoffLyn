@@ -1,8 +1,49 @@
-# Perplexity Chat - Motion
+# Hofflyn — Motion Chat
+
+![Hofflyn screenshot](screenshot.png)
+
+A motion-driven AI chat agent built with Next.js, featuring a glimmer hero, motion backgrounds, and a Hofflyn-branded interface.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ (recommended: Node 20)
+- npm
+
+### Install
+
+```bash
+npm install
+```
+
+### Run (development)
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Production build
+
+```bash
+npm run build
+npm start
+```
+
+## Deploy to GitHub Pages
+
+This repo includes a GitHub Actions workflow (`.github/workflows/deploy.yml`) that builds and deploys the app to GitHub Pages automatically on every push to `main`.
+
+To enable:
+1. Go to **Settings → Pages** in your GitHub repo
+2. Set Source to **GitHub Actions**
+3. Push to `main` — the workflow will build and deploy
 
 ## Component Library Reference (Aura.build)
 
-Use these links when adding UI components to the app — footer, background, code blocks, buttons, cards, headers, logos, features, pricing, testimonials, forms, and more.
+Use these links when adding UI components to the app.
 
 | Component | Link |
 |-----------|------|
@@ -21,20 +62,3 @@ Use these links when adding UI components to the app — footer, background, cod
 | Footer | https://www.aura.build/components?componentType=free&q=Footer |
 | Form | https://www.aura.build/components?componentType=free&q=Form |
 | Heading | https://www.aura.build/components?componentType=free&q=Heading |
-
-Individual export of the Perplexity Chat - Motion application.
-
-## Run
-
-```bash
-npm run dev
-```
-
-Open http://localhost:3000.
-
-## Production build
-
-```bash
-npm run build
-npm start
-```
