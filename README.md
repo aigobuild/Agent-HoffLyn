@@ -32,6 +32,17 @@ npm run build
 npm start
 ```
 
+## Deployed Sites
+
+This project has **two live sites** built and deployed:
+
+1. **GitHub Pages** — https://aigobuild.github.io/Agent-HoffLyn/
+   - Auto-deploys on every push to `main` via GitHub Actions
+   - Built from this repository
+
+2. **Agent HoffLyn (original)** — https://aigobuild.github.io/Agent-HoffLyn/
+   - The original HoffLyn agent site
+
 ## Deploy to GitHub Pages
 
 This repo includes a GitHub Actions workflow (`.github/workflows/deploy.yml`) that builds and deploys the app to GitHub Pages automatically on every push to `main`.
